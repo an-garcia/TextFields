@@ -12,6 +12,8 @@
 		8228DFA11FAE9BC30022BAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8228DF9F1FAE9BC30022BAA9 /* Main.storyboard */; };
 		8228DFA31FAE9BC30022BAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8228DFA21FAE9BC30022BAA9 /* Assets.xcassets */; };
 		8228DFA61FAE9BC30022BAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8228DFA41FAE9BC30022BAA9 /* LaunchScreen.storyboard */; };
+		8228DFB31FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */; };
+		8228DFB41FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8228DFA21FAE9BC30022BAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8228DFA51FAE9BC30022BAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8228DFA71FAE9BC30022BAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
+		8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		8228DF9A1FAE9BC30022BAA9 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				8228DFB01FAEA7010022BAA9 /* Text Field Delegates */,
 				8228DF9B1FAE9BC30022BAA9 /* AppDelegate.swift */,
 				8228DF9D1FAE9BC30022BAA9 /* ViewController.swift */,
 				8228DF9F1FAE9BC30022BAA9 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				8228DFA71FAE9BC30022BAA9 /* Info.plist */,
 			);
 			path = TextFields;
+			sourceTree = "<group>";
+		};
+		8228DFB01FAEA7010022BAA9 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */,
+				8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */,
+			);
+			path = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8228DFB41FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift in Sources */,
 				8228DF9E1FAE9BC30022BAA9 /* ViewController.swift in Sources */,
 				8228DF9C1FAE9BC30022BAA9 /* AppDelegate.swift in Sources */,
+				8228DFB31FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
