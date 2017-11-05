@@ -58,7 +58,8 @@
 		8228DF9A1FAE9BC30022BAA9 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
-				8228DFB01FAEA7010022BAA9 /* Text Field Delegates */,
+				8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */,
+				8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */,
 				8228DF9B1FAE9BC30022BAA9 /* AppDelegate.swift */,
 				8228DF9D1FAE9BC30022BAA9 /* ViewController.swift */,
 				8228DF9F1FAE9BC30022BAA9 /* Main.storyboard */,
@@ -67,15 +68,6 @@
 				8228DFA71FAE9BC30022BAA9 /* Info.plist */,
 			);
 			path = TextFields;
-			sourceTree = "<group>";
-		};
-		8228DFB01FAEA7010022BAA9 /* Text Field Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */,
-				8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */,
-			);
-			path = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
