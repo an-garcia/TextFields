@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ChallengeViewController: UIViewController {
+class ChallengeViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: Outlets
     @IBOutlet weak var textField1: UITextField!
     @IBOutlet weak var textField2: UITextField!
     @IBOutlet weak var textField3: UITextField!
     @IBOutlet weak var editSwitch: UISwitch!
+    
+    // MARK: Text Field Delegate objects
+    let zipCodeDelegate = ZipCodeTextFieldDelegate()
+    
+    
+    // MARK: Life Cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Set the three delegates
+        self.textField1.delegate = zipCodeDelegate
+        
+    }
     
     
     /**

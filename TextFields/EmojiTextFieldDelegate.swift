@@ -18,7 +18,6 @@ class EmojiTextFieldDelegate : NSObject, UITextFieldDelegate {
     var translations = [String : String]()
     
     // MARK: Initializer
-    
     override init() {
         super.init()
         
