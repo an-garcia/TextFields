@@ -37,5 +37,9 @@ class ChallengeViewController: UIViewController, UITextFieldDelegate {
     @IBAction func dismiss() {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func enableDisableTextField() {
+        textField3.isEnabled = editSwitch.isOn
+    }
 
 }

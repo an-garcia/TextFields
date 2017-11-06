@@ -221,6 +221,9 @@
                                             </textField>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oad-SF-DIg">
                                                 <rect key="frame" x="250" y="0.0" width="51" height="30"/>
+                                                <connections>
+                                                    <action selector="enableDisableTextField" destination="1YP-Ds-zSd" eventType="valueChanged" id="tae-YF-AAH"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
