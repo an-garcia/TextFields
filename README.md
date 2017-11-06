@@ -2,6 +2,7 @@
 
 
 ![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-06at14.49.43.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-06at15.38.55.png)
 
 
 TextFields is an iOS sample application that uses delegates to have different behaviour in TextFields.
