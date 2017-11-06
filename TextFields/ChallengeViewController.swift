@@ -18,6 +18,7 @@ class ChallengeViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Text Field Delegate objects
     let zipCodeDelegate = ZipCodeTextFieldDelegate()
+    let cashDelegate = CashTextFieldDelegate()
     
     
     // MARK: Life Cycle
@@ -27,6 +28,7 @@ class ChallengeViewController: UIViewController, UITextFieldDelegate {
         
         // Set the three delegates
         self.textField1.delegate = zipCodeDelegate
+        self.textField2.delegate = cashDelegate
         
     }
     
