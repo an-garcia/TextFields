@@ -14,11 +14,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textField1: UITextField!
     @IBOutlet weak var textField2: UITextField!
     @IBOutlet weak var textField3: UITextField!
+    @IBOutlet weak var textField4: UITextField!
     @IBOutlet weak var characterCountLabel: UILabel!
     
     // MARK: Text Field Delegate objects
     let emojiDelegate = EmojiTextFieldDelegate()
     let colorizerDelegate = ColorizerTextFieldDelegate()
+    let randomColorDelegate = RandomColorTextFieldDelegate()
     
     // MARK: Life Cycle
     
@@ -33,10 +35,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.textField1.delegate = emojiDelegate
         self.textField2.delegate = colorizerDelegate
         self.textField3.delegate = self
+        self.textField4.delegate = randomColorDelegate
     }
 
     // MARK: Text Field Delegate Methods
-    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         // Figure out what the new text will be, if we return true

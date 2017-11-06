@@ -14,7 +14,6 @@ import UIKit
 class ColorizerTextFieldDelegate: NSObject, UITextFieldDelegate {
     
     // MARK: Properties
-    
     let colors: [String:UIColor] = [
         "red": UIColor.red,
         "orange":  UIColor.orange,
@@ -32,7 +31,6 @@ class ColorizerTextFieldDelegate: NSObject, UITextFieldDelegate {
     /**
     * Examines the new string whenever the text changes. Finds color-words, blends them, and set the text color
     */
-    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         var colorsInTheText = [UIColor]()

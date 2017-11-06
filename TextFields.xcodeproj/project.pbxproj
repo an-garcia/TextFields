@@ -14,6 +14,7 @@
 		8228DFA61FAE9BC30022BAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8228DFA41FAE9BC30022BAA9 /* LaunchScreen.storyboard */; };
 		8228DFB31FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */; };
 		8228DFB41FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */; };
+		82B538B61FB0EF870052D468 /* RandomColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B538B51FB0EF870052D468 /* RandomColorTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8228DFA71FAE9BC30022BAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
 		8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
+		82B538B51FB0EF870052D468 /* RandomColorTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				8228DFB21FAEA7610022BAA9 /* ColorizerTextFieldDelegate.swift */,
 				8228DFB11FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift */,
+				82B538B51FB0EF870052D468 /* RandomColorTextFieldDelegate.swift */,
 				8228DF9B1FAE9BC30022BAA9 /* AppDelegate.swift */,
 				8228DF9D1FAE9BC30022BAA9 /* ViewController.swift */,
 				8228DF9F1FAE9BC30022BAA9 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 				8228DF9E1FAE9BC30022BAA9 /* ViewController.swift in Sources */,
 				8228DF9C1FAE9BC30022BAA9 /* AppDelegate.swift in Sources */,
 				8228DFB31FAEA7610022BAA9 /* EmojiTextFieldDelegate.swift in Sources */,
+				82B538B61FB0EF870052D468 /* RandomColorTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
